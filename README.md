@@ -2,7 +2,7 @@
 
 ## System Architecture
 
-![KAML-D high level system architecture](2018-02-19-system-architecture.jpg)
+![KAML-D high level system architecture](kaml-d_system-architecture.png)
 
 KAML-D can be deployed on any cloud (or on-premises) platform that allows you to run Kubernetes. Most of the components are open source. As a SaaS, it integrates with the cloud providers (user) identity management system, on-prem something like LDAP.
 
