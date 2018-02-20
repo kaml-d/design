@@ -30,5 +30,5 @@ The user management and access control part is outside of the scope of KAML-D bu
 
 The UX is central to KAML-D. Users can have different roles (data scientists, data engineers, developers, SREs, admins) and for each role the UX should be pleasing and rich. UX over performance, strive for simplicity and cleanliness. 
 
-![KAML-D UX](2018-02-20-ux.jpg)
+![KAML-D UX](kaml-d_ux.png)
 
