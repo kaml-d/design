@@ -1,2 +1,10 @@
-# design
-Architecture and UX design of KAML-D
+# KAML-D Architecture and UX design
+
+## System Architecture
+
+
+
+## Components
+
+
+## Process
