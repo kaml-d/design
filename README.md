@@ -1,6 +1,6 @@
 <div style="text-align:right; margin-bottom:50px;" width="90%">
-  &#10143; <a href="motivation">Motivation</a> |
-  &#10143; <a href="use-cases">Use Cases</a> |
+  &#10143; <a href="motivation">Motivation</a>
+  &#10143; <a href="use-cases">Use Cases</a>
   &#10143; <a href="https://github.com/kaml-d/design/issues/new">Leave a comment</a>
 </div>
 

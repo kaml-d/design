@@ -1,6 +1,6 @@
 <div style="text-align:right; margin-bottom:50px;" width="90%">
-  Motivation |
-  &#10143; <a href="use-cases">Use Cases</a> |
+  Motivation
+  &#10143; <a href="use-cases">Use Cases</a>
   &#10143; <a href="https://github.com/kaml-d/design/issues/new">Leave a comment</a>
 </div>
 
@@ -12,5 +12,5 @@ In a nutshell, KAML-D (*Kubernetes Advanced Machine Learning & Data Engineering 
 
 There are two orthogonal issues to overcome:
 
-- Between data scientists and data engineers/developers
-- Between data engineers/developers and ops folks
+- Hand-off and collaboration between data scientists on the one hand and data engineers/developers on the other.
+- Hand-off and collaboration between data engineers/developers on the one hand and ops folks on the other.
