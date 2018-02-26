@@ -2,7 +2,7 @@
 <a href="https://github.com/kaml-d/design/issues/new">Leave a comment …</a>
 </div>
 
-![KAML-D high level system architecture](kaml-d_system-architecture.png)
+![KAML-D high level system architecture](img/kaml-d_system-architecture.png)
 
 ## System Architecture
 
@@ -28,7 +28,6 @@ The user management and access control part is outside of the scope of KAML-D bu
 
 ## User Experience
 
-The UX is central to KAML-D. Users can have different roles (data scientists, data engineers, developers, SREs, admins) and for each role the UX should be pleasing and rich. UX over performance, strive for simplicity and cleanliness. 
+The UX is central to KAML-D. Users can have different roles (data scientists, data engineers, developers, SREs, admins) and for each role the UX should be pleasing and rich. UX over performance, strive for simplicity and cleanliness.
 
-![KAML-D UX](kaml-d_ux.png)
-
+![KAML-D UX](img/kaml-d_ux.png)
