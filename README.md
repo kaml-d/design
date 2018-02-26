@@ -1,7 +1,7 @@
 <div style="text-align:right; margin-bottom:50px;" width="90%">
-  &#10143; <a href="motivation">Motivation</a>
-  &#10143; <a href="use-cases">Use Cases</a>
-  &#10143; <a href="https://github.com/kaml-d/design/issues/new">Leave a comment</a>
+  <a href="motivation">Motivation</a> &#12288;
+  <a href="use-cases">Use Cases</a> &#12288;
+  <a href="https://github.com/kaml-d/design/issues/new">Leave a comment</a>
 </div>
 
 ![KAML-D high level system architecture](img/kaml-d_system-architecture.png)
