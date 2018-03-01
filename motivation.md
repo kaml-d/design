@@ -12,5 +12,5 @@ In a nutshell, KAML-D (*Kubernetes Advanced Machine Learning & Data Engineering 
 
 There are two orthogonal issues to overcome:
 
-- Hand-off and collaboration between data scientists on the one hand and data engineers/developers on the other.
-- Hand-off and collaboration between data engineers/developers on the one hand and ops folks on the other.
+1. Hand-off and collaboration between data scientists on the one hand and data engineers/developers on the other. `KAML-D` focuses on this one.
+1. Hand-off and collaboration between data engineers/developers on the one hand and ops folks on the other. This is addressed by the devops thinking and tooling supporting you to address this issue. It is of secondary importance for `KAML-D`.
