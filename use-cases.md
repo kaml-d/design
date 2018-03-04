@@ -6,7 +6,11 @@
 
 ## Use Cases
 
-KAML-D, the *Kubernetes Advanced Machine Learning & Data Engineering Platform* has a number of use cases, mainly in the area of collaboratively developing and running cloud native Machine Learning (ML) apps.
+`KAML-D` is mainly useful in the area of collaboratively developing and running cloud native Machine Learning (ML) apps, for example:
+
+- As a *data scientist*, iterate on ML-based features faster and consequently ship them faster. Share models (incl. datasets and parameters) with team colleagues in a simply and intuitive way.
+- As a *data engineer* or *developer*, you can benefit from the unified way of handling both datasets and models to more smoothly transition an app to production and interact with your fellow data scientists on the team.
+- In an *ops* role, you can get the insights necessary to provide guidance to run the app (incl. the ML features) optimally.
 
 ### Improve experiments
 
