@@ -14,11 +14,17 @@
 
 ### Faster machine learning iterations
 
-Before an ML feature can be integrated into an app, a data scientist needs to:
+Before an ML feature can be integrated into an app, a data scientist needs to, for example:
 
 1. come up with a model by choosing an approach and algorithm, for example, supervised learning with a [CNN](https://en.wikipedia.org/wiki/Convolutional_neural_network) like the one available in [habrman/FaceRecognition](https://github.com/habrman/FaceRecognition), and
-2. figure out how good good the model performs using, say, a [cost function](https://towardsdatascience.com/machine-learning-fundamentals-via-linear-regression-41a5d11f5220).
+2. figure out how good the model performs using, say, a [cost function](https://towardsdatascience.com/machine-learning-fundamentals-via-linear-regression-41a5d11f5220).
+
+In each of the steps the data scientist might perform many iterations, trying out a number of different approaches and/or using different test and training datasets. With KAML-D, rather than manually creating new versions of datasets and models, you can quickly generate new versions and also go back in time. 
 
 ### Ship ML-based features faster
 
-### Unified handling of data and models
+As we've discussed in the [motivation](../motivation), there's a double divide (data scientists/developers/ops) and KAML-D is written with mitigating this in mind. By providing a unified way of handling both datasets and models across different roles, you can expect to more smoothly transition an app to production. With KAML-D, everyone involved can focus on their role while benefiting from a common language and environment, from experimentation to prod.
+
+### Unified handling of datasets and models
+
+Datasets and models are often handled separately, by different people and/or roles and using different methods, from no versioning to purely manual versioning to proprietary methods. With KAML-D, you get a unified way for different roles such as data scientists or developers to handle datasets and models in a unified manner, based on industry-leader [Dotmesh](https://dotmesh.com/).
