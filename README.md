@@ -19,12 +19,12 @@ New open source components KAML-D introduces:
 
 - _KAML-D Workbench_: a graphical UI for data scientists, data engineers, developers, and SREs to manage datasets as well as to test and deploy ML algorithms. Builds on the metadata layer to find and visualize datasets. Builds on the storage layer to store and load datasets.
 - _KAML-D Metadata Hub_: a data and metadata layer using [PrestoDB](https://prestodb.io/) and [Elasticsearch](https://www.elastic.co/products/elasticsearch) for indexing and querying datasets.
-- _KAML-D Observation Hub_: a comprehensive observability suite for SREs and admins (as well as developers on the app level) to understand the health of the KAML-D platform and troubleshoot issues on the platform and application level:
+- _KAML-D Observation Hub_: a comprehensive observability suite for Site Reliability Engineers (SRE) and cluster admins as well as developers on the app level to understand the health of the KAML-D platform and troubleshoot issues on the platform and application level:
   - [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/) for end-to-end metrics and monitoring/alerting
   - [EFK stack](https://kubernetes.io/docs/tasks/debug-application-cluster/logging-elasticsearch-kibana/) for (aggregrated) logging
   - [Jaeger](http://jaegertracing.io/) for (distributed) tracing
 
-Note that the user management and access control part is outside of the scope of KAML-D but standard integration points such as LDAP are supported.
+Note that user management and access control is outside of the scope of KAML-D. We will, however provide for an RBAC-enabled setup and offer support for standard Kubernetes integration points such authentication via OpenID Connect with [LDAP](https://github.com/krishnapmv/k8s-ldap) or [GitHub](https://github.com/oursky/kubernetes-github-authn).
 
 If you want to learn more about the design decisions and KAML-D's origin, check out this ca. 14 min long YouTube video:
 
